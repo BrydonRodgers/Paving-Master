@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Our Services | Paving Master Construction (PTY) LTD | West Coast Paving</title>
+  <meta name="description" content="Bond Paving, Cobble Paving, Block Paving, Interlock Paving, Tiling, Vibracrete Walls, Painting & Retaining Wall Blocks — Veldrif, Laaiplek, West Coast. Call Forgive Nharingo +27 65 935 9012."/>
+  <meta name="keywords" content="Bond Paving West Coast, Cobble Paving Veldrif, Block Paving Laaiplek, Interlock Paving, Tiling West Coast, Vibracrete Wall, Retaining Wall Blocks, Painting West Coast, Paving Master Construction"/>
+  <meta name="robots" content="index, follow"/>
+  <link rel="canonical" href="https://pavingmaster.co.za/services.html"/>
+  <meta property="og:title" content="Services | Paving Master Construction (PTY) LTD"/>
+  <meta property="og:description" content="Professional paving services for the West Coast — Bond, Cobble, Block, Interlock, Tiling, Vibracrete & more."/>
+  <meta property="og:url" content="https://pavingmaster.co.za/services.html"/>
+  <meta property="og:image" content="PAVE1.jpeg"/>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet"/>
+
+  <style>
+    :root {
+      --soil:     #1C1A17;
+      --soil-md:  #2A2721;
+      --soil-lt:  #3D3830;
+      --stone:    #5C554A;
+      --pebble:   #8A8078;
+      --sand:     #C8B89A;
+      --sand-lt:  #E2D5C3;
+      --cream:    #F5F0E8;
+      --white:    #FDFCFA;
+      --amber:    #C47B2A;
+      --amber-lt: #E09040;
+      --amber-dk: #9A5E18;
+      --wa:       #25D366;
+      --wa-dk:    #1aad52;
+      --shadow:   rgba(28,26,23,.2);
+      --r:        5px;
+      --fh:       'Barlow Condensed', sans-serif;
+      --fb:       'Nunito Sans', sans-serif;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; overflow-x: hidden; max-width: 100%; }
+    body { font-family: var(--fb); background: var(--white); color: var(--soil); overflow-x: hidden; max-width: 100%; }
+    img  { display: block; max-width: 100%; }
+    a    { text-decoration: none; color: inherit; }
+    ul   { list-style: none; }
+
+    .reveal { opacity: 0; transform: translateY(28px); transition: opacity .6s ease, transform .6s ease; }
+    .reveal.in { opacity: 1; transform: translateY(0); }
+    .d1{transition-delay:.08s}.d2{transition-delay:.18s}.d3{transition-delay:.28s}.d4{transition-delay:.38s}.d5{transition-delay:.48s}
+
+    /* ─── TOP BAR ─── */
+    .topbar {
+      background: var(--soil); padding: .45rem 1.25rem;
+      display: flex; flex-wrap: wrap; gap: .4rem 1.2rem;
+      align-items: center; justify-content: space-between;
+      font-size: .76rem; color: rgba(255,255,255,.5);
+      font-family: var(--fh); letter-spacing: .07em; text-transform: uppercase;
+    }
+    .topbar a { color: var(--sand); transition: color .2s; }
+    .topbar a:hover { color: var(--amber-lt); }
+    .topbar-left { display: flex; flex-wrap: wrap; gap: .4rem 1.2rem; align-items: center; }
+    @media(max-width:480px){ .topbar { display: none; } }
+
+    /* ─── NAV ─── */
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: var(--soil-md);
+      border-bottom: 3px solid var(--amber);
+      box-shadow: 0 3px 20px rgba(0,0,0,.35);
+    }
+    .nav-wrap {
+      max-width: 1200px; margin: 0 auto;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 1rem;
+    }
+    .nav-brand { display: flex; align-items: center; gap: .75rem; padding: .5rem 0; cursor: pointer; }
+    .nav-logo-img { height: 48px; width: auto; border-radius: var(--r); object-fit: contain; background: #fff; padding: 2px 5px; box-shadow: 0 2px 8px rgba(0,0,0,.4); }
+    .nav-brand-text .b1 { font-family: var(--fh); font-size: 1.05rem; font-weight: 700; color: #fff; text-transform: uppercase; letter-spacing: .04em; line-height: 1.1; }
+    .nav-brand-text .b2 { font-size: .58rem; color: var(--sand); letter-spacing: .12em; text-transform: uppercase; opacity: .7; }
+    .nav-links { display: flex; gap: .05rem; }
+    .nav-links a {
+      padding: .65rem .85rem;
+      font-family: var(--fh); font-size: .92rem; font-weight: 600;
+      letter-spacing: .06em; text-transform: uppercase;
+      color: rgba(255,255,255,.62); border-radius: var(--r);
+      transition: color .2s, background .2s;
+    }
+    .nav-links a:hover, .nav-links a.active { color: #fff; background: rgba(255,255,255,.07); }
+    .nav-links a.active { color: var(--amber-lt); }
+    .nav-cta { background: var(--amber) !important; color: #fff !important; padding: .55rem 1.1rem !important; margin-left: .35rem; transition: background .2s !important; }
+    .nav-cta:hover { background: var(--amber-dk) !important; }
+    .ham { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: .55rem; margin-right: -.3rem; }
+    .ham span { display: block; width: 24px; height: 2.5px; background: #fff; transition: .3s; border-radius: 2px; }
+    .ham.open span:nth-child(1){ transform: rotate(45deg) translate(5px,5px); }
+    .ham.open span:nth-child(2){ opacity: 0; }
+    .ham.open span:nth-child(3){ transform: rotate(-45deg) translate(5px,-5px); }
+    .mob-nav { display: none; flex-direction: column; background: var(--soil); }
+    .mob-nav.open { display: flex; }
+    .mob-nav a { padding: 1rem 1.5rem; font-family: var(--fh); font-size: 1.05rem; font-weight: 600; letter-spacing: .07em; text-transform: uppercase; color: rgba(255,255,255,.72); border-bottom: 1px solid rgba(255,255,255,.06); transition: background .2s, color .2s; }
+    .mob-nav a:hover { background: rgba(255,255,255,.06); color: #fff; }
+    .mob-call-bar {
+      display: none; position: fixed; bottom: 0; left: 0; right: 0; z-index: 200;
+      background: var(--amber); padding: .7rem 1rem; gap: .6rem; box-shadow: 0 -4px 20px rgba(0,0,0,.3);
+    }
+    .mob-call-bar a { flex: 1; display: flex; align-items: center; justify-content: center; gap: .4rem; padding: .65rem .5rem; font-family: var(--fh); font-size: .95rem; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; border-radius: var(--r); color: #fff; }
+    .mob-call-bar a.call { background: var(--soil); }
+    .mob-call-bar a.wa { background: var(--wa); }
+
+    /* ─── BUTTONS ─── */
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center; gap: .5rem;
+      padding: .9rem 1.75rem;
+      font-family: var(--fh); font-size: 1rem; font-weight: 700;
+      letter-spacing: .08em; text-transform: uppercase;
+      border-radius: var(--r); border: none; cursor: pointer;
+      transition: transform .18s, box-shadow .18s, background .18s, filter .18s;
+      white-space: nowrap;
+    }
+    .btn:hover { transform: translateY(-2px); }
+    .btn:active { transform: translateY(0); filter: brightness(.92); }
+    .btn-amber { background: var(--amber); color: #fff; box-shadow: 0 4px 16px rgba(196,123,42,.35); }
+    .btn-amber:hover { background: var(--amber-dk); box-shadow: 0 8px 22px rgba(196,123,42,.45); }
+    .btn-wa { background: var(--wa); color: #fff; box-shadow: 0 4px 16px rgba(37,211,102,.3); }
+    .btn-wa:hover { background: var(--wa-dk); }
+    .btn-dark { background: var(--soil); color: #fff; box-shadow: 0 4px 16px rgba(0,0,0,.25); }
+    .btn-dark:hover { background: var(--soil-md); }
+    .btn-outline-a { background: transparent; border: 2px solid var(--amber); color: var(--amber); }
+    .btn-outline-a:hover { background: var(--amber); color: #fff; }
+    .btn-outline-w { background: transparent; border: 2px solid rgba(255,255,255,.4); color: #fff; }
+    .btn-outline-w:hover { background: rgba(255,255,255,.1); border-color: #fff; }
+    .btn-lg { padding: 1rem 2rem; font-size: 1.05rem; }
+    .btn-xl { padding: 1.1rem 2.2rem; font-size: 1.12rem; }
+    .wa-ic { width: 19px; height: 19px; fill: currentColor; flex-shrink: 0; }
+
+    /* ─── LAYOUT ─── */
+    .sec { padding: 5.5rem 1.5rem; width: 100%; overflow-x: hidden; }
+    .wrap { max-width: 1200px; margin: 0 auto; width: 100%; }
+    .sec-tag {
+      display: inline-flex; align-items: center; gap: .45rem;
+      background: rgba(196,123,42,.12); border: 1px solid rgba(196,123,42,.3);
+      border-radius: 3px; padding: .28rem .78rem;
+      font-family: var(--fh); font-size: .72rem; font-weight: 700;
+      letter-spacing: .2em; text-transform: uppercase; color: var(--amber);
+      margin-bottom: .65rem;
+    }
+    .sec-title { font-family: var(--fh); font-size: clamp(2.1rem,5vw,3.1rem); font-weight: 800; text-transform: uppercase; line-height: 1.02; color: var(--soil); letter-spacing: .01em; }
+    .sec-title span { color: var(--amber); }
+    .sec-title.light { color: #fff; }
+    .sec-sub { font-size: 1rem; line-height: 1.85; color: var(--stone); margin-top: .75rem; }
+    .sec-sub.light { color: rgba(255,255,255,.6); }
+    .bar { width: 52px; height: 4px; background: var(--amber); margin: 1rem 0 2rem; border-radius: 2px; }
+    .bar.c { margin-left: auto; margin-right: auto; }
+
+    /* ─── PAGE HERO ─── */
+    .page-hero {
+      background: linear-gradient(135deg, var(--soil) 0%, var(--soil-md) 50%, var(--soil-lt) 100%);
+      padding: 5rem 1.5rem 4rem;
+      position: relative; overflow: hidden;
+    }
+    .page-hero::before {
+      content: ''; position: absolute; inset: 0;
+      background-image: linear-gradient(rgba(255,255,255,.025) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,.025) 1px, transparent 1px);
+      background-size: 60px 60px; pointer-events: none;
+    }
+    .page-hero::after {
+      content: 'SERVICES'; position: absolute; right: -2rem; bottom: -1.5rem;
+      font-family: var(--fh); font-size: 11rem; font-weight: 800; text-transform: uppercase;
+      color: rgba(255,255,255,.03); line-height: 1; pointer-events: none; letter-spacing: -.02em;
+    }
+    .page-hero-inner { max-width: 1200px; margin: 0 auto; position: relative; z-index: 2; }
+    .breadcrumb { display: flex; align-items: center; gap: .5rem; margin-bottom: 1.5rem; font-family: var(--fh); font-size: .78rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; }
+    .breadcrumb a { color: rgba(255,255,255,.4); transition: color .2s; }
+    .breadcrumb a:hover { color: var(--amber-lt); }
+    .breadcrumb span { color: rgba(255,255,255,.2); }
+    .breadcrumb .current { color: var(--amber-lt); }
+    .page-hero h1 { font-family: var(--fh); font-size: clamp(2.8rem,6vw,5rem); font-weight: 800; text-transform: uppercase; color: #fff; line-height: .95; letter-spacing: .01em; margin-bottom: 1.2rem; }
+    .page-hero h1 em { font-style: normal; color: var(--amber-lt); }
+    .page-hero p { font-size: 1.05rem; color: rgba(255,255,255,.55); line-height: 1.85; max-width: 620px; }
+    .hero-strip { background: var(--amber); padding: .9rem 1.5rem; }
+    .hero-strip-inner { max-width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: .85rem; align-items: center; justify-content: space-between; }
+    .hero-strip-text { font-family: var(--fh); font-size: 1.1rem; font-weight: 800; text-transform: uppercase; letter-spacing: .06em; color: var(--soil); display: flex; align-items: center; gap: .8rem; flex-wrap: wrap; }
+    .hero-strip-dot { width: 7px; height: 7px; background: var(--soil-md); border-radius: 50%; opacity: .35; }
+
+    /* ─── SERVICE NAV PILLS ─── */
+    .svc-nav { background: var(--cream); border-bottom: 1px solid var(--sand-lt); padding: 1.2rem 1.5rem; position: sticky; top: 54px; z-index: 90; }
+    .svc-nav-inner { max-width: 1200px; margin: 0 auto; display: flex; gap: .5rem; flex-wrap: wrap; align-items: center; }
+    .svc-pill {
+      font-family: var(--fh); font-size: .78rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase;
+      padding: .38rem .85rem; border-radius: 3px; border: 1.5px solid var(--sand-lt);
+      color: var(--stone); background: var(--white); cursor: pointer;
+      transition: all .2s;
+    }
+    .svc-pill:hover, .svc-pill.active { background: var(--amber); border-color: var(--amber); color: #fff; }
+
+    /* ─── SERVICE CARDS SECTION ─── */
+    .services-main { background: var(--white); }
+
+    /* ─── INDIVIDUAL SERVICE BLOCKS ─── */
+    .svc-block {
+      padding: 4.5rem 1.5rem;
+      border-bottom: 1px solid var(--sand-lt);
+    }
+    .svc-block:nth-child(even) { background: var(--cream); }
+    .svc-block-inner { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; }
+    .svc-block:nth-child(even) .svc-block-inner { direction: rtl; }
+    .svc-block:nth-child(even) .svc-block-inner > * { direction: ltr; }
+    .svc-number { font-family: var(--fh); font-size: 7rem; font-weight: 800; color: rgba(196,123,42,.1); line-height: 1; margin-bottom: -.5rem; letter-spacing: -.02em; }
+    .svc-icon-lg { font-size: 3.5rem; margin-bottom: 1rem; }
+    .svc-block h2 { font-family: var(--fh); font-size: clamp(2rem,4vw,3rem); font-weight: 800; text-transform: uppercase; color: var(--soil); line-height: 1; margin-bottom: .6rem; }
+    .svc-block h2 span { color: var(--amber); }
+    .svc-block p { font-size: .97rem; line-height: 1.9; color: var(--stone); margin-bottom: 1.2rem; }
+    .svc-features { display: flex; flex-direction: column; gap: .5rem; margin-bottom: 1.6rem; }
+    .svc-feat { display: flex; align-items: flex-start; gap: .65rem; font-size: .9rem; color: var(--stone); line-height: 1.5; }
+    .svc-feat::before { content: '▸'; color: var(--amber); font-size: .72rem; margin-top: .18rem; flex-shrink: 0; }
+    .svc-visual {
+      background: linear-gradient(135deg, var(--soil-md), var(--soil-lt));
+      border-radius: var(--r); overflow: hidden; position: relative;
+      min-height: 380px; display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 12px 40px rgba(0,0,0,.25);
+    }
+    .svc-visual::before { content: ''; position: absolute; inset: 0; background: linear-gradient(135deg, rgba(196,123,42,.15), transparent 60%); }
+    .svc-visual img { width: 100%; height: 100%; object-fit: cover; position: absolute; inset: 0; }
+    .svc-visual-placeholder {
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      gap: 1rem; text-align: center; padding: 2rem; position: relative; z-index: 1;
+    }
+    .svc-visual-placeholder .big-ico { font-size: 5rem; opacity: .4; }
+    .svc-visual-placeholder span { font-family: var(--fh); font-size: .8rem; font-weight: 700; letter-spacing: .15em; text-transform: uppercase; color: rgba(255,255,255,.25); }
+    .svc-visual-label {
+      position: absolute; bottom: 1rem; left: 1rem; right: 1rem; z-index: 2;
+      background: rgba(28,26,23,.8); border-left: 3px solid var(--amber);
+      padding: .6rem .9rem; border-radius: var(--r);
+      font-family: var(--fh); font-size: .88rem; font-weight: 700; letter-spacing: .07em;
+      text-transform: uppercase; color: #fff;
+    }
+
+    /* ─── PROCESS SECTION ─── */
+    .process-sec { background: linear-gradient(135deg, var(--soil), var(--soil-md)); position: relative; overflow: hidden; }
+    .process-sec::before { content: ''; position: absolute; inset: 0; background-image: linear-gradient(rgba(255,255,255,.02) 1px,transparent 1px), linear-gradient(90deg,rgba(255,255,255,.02) 1px,transparent 1px); background-size: 52px 52px; pointer-events: none; }
+    .process-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; position: relative; z-index: 2; }
+    .process-step { text-align: center; padding: 2rem 1.5rem; }
+    .process-num { font-family: var(--fh); font-size: 4rem; font-weight: 800; color: var(--amber); line-height: 1; margin-bottom: .5rem; }
+    .process-ico { font-size: 2rem; margin-bottom: .75rem; }
+    .process-step h3 { font-family: var(--fh); font-size: 1.1rem; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: #fff; margin-bottom: .5rem; }
+    .process-step p { font-size: .85rem; color: rgba(255,255,255,.45); line-height: 1.75; }
+    .process-connector { position: absolute; top: 50%; right: 0; width: 100%; height: 1px; background: rgba(255,255,255,.05); }
+
+    /* ─── PRICING HINT ─── */
+    .pricing-sec { background: var(--cream); }
+    .pricing-cards { display: grid; grid-template-columns: repeat(3,1fr); gap: 1.5rem; margin-top: 2.5rem; }
+    .pricing-card { background: var(--white); border: 1px solid var(--sand-lt); border-top: 4px solid var(--sand); border-radius: var(--r); padding: 2rem 1.75rem; box-shadow: 0 3px 16px var(--shadow); text-align: center; transition: transform .25s, box-shadow .25s; }
+    .pricing-card:hover { transform: translateY(-5px); box-shadow: 0 14px 32px var(--shadow); }
+    .pricing-card.featured { border-top-color: var(--amber); background: var(--soil); color: #fff; }
+    .pricing-card.featured .pc-label { color: var(--amber-lt); }
+    .pricing-card.featured .pc-desc { color: rgba(255,255,255,.5); }
+    .pricing-card.featured .pc-list li { color: rgba(255,255,255,.6); }
+    .pc-label { font-family: var(--fh); font-size: .72rem; font-weight: 700; letter-spacing: .2em; text-transform: uppercase; color: var(--pebble); margin-bottom: .6rem; }
+    .pc-title { font-family: var(--fh); font-size: 1.6rem; font-weight: 800; text-transform: uppercase; color: inherit; margin-bottom: .3rem; }
+    .pricing-card.featured .pc-title { color: #fff; }
+    .pc-badge { display: inline-block; background: var(--amber); color: #fff; font-family: var(--fh); font-size: .68rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; padding: .18rem .6rem; border-radius: 2px; margin-bottom: 1rem; }
+    .pc-desc { font-size: .88rem; color: var(--pebble); line-height: 1.65; margin-bottom: 1.4rem; }
+    .pc-list { text-align: left; margin-bottom: 1.6rem; display: flex; flex-direction: column; gap: .4rem; }
+    .pc-list li { font-size: .85rem; color: var(--stone); display: flex; align-items: flex-start; gap: .5rem; }
+    .pc-list li::before { content: '✓'; color: var(--amber); font-weight: 700; flex-shrink: 0; font-size: .8rem; margin-top: .08rem; }
+    .pc-note { font-size: .72rem; color: var(--pebble); margin-top: .6rem; font-style: italic; }
+
+    /* ─── MATERIALS ─── */
+    .materials-sec { background: var(--white); }
+    .mat-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px,1fr)); gap: 1rem; margin-top: 2rem; }
+    .mat-card { border: 1px solid var(--sand-lt); border-radius: var(--r); padding: 1.5rem 1rem; text-align: center; background: var(--cream); transition: all .25s; }
+    .mat-card:hover { background: var(--soil); border-color: var(--amber); }
+    .mat-card:hover .mat-name { color: #fff; }
+    .mat-card:hover .mat-desc { color: rgba(255,255,255,.4); }
+    .mat-ico { font-size: 2.2rem; margin-bottom: .6rem; }
+    .mat-name { font-family: var(--fh); font-size: .95rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--soil); margin-bottom: .3rem; transition: color .25s; }
+    .mat-desc { font-size: .76rem; color: var(--pebble); line-height: 1.5; transition: color .25s; }
+
+    /* ─── CTA BANNER ─── */
+    .cta-ban { background: var(--amber); padding: 5rem 1.25rem; text-align: center; position: relative; overflow: hidden; }
+    .cta-ban::before { content: ''; position: absolute; inset: 0; background: repeating-linear-gradient(-45deg, rgba(0,0,0,.04) 0px, rgba(0,0,0,.04) 8px, transparent 8px, transparent 16px); }
+    .cta-ban-inner { position: relative; z-index: 2; }
+    .cta-ban h2 { font-family: var(--fh); font-size: clamp(2.2rem,5.5vw,3.8rem); font-weight: 800; text-transform: uppercase; letter-spacing: .03em; color: var(--soil); margin-bottom: .4rem; }
+    .cta-ban p { font-size: 1rem; color: rgba(28,26,23,.65); margin-bottom: 2rem; max-width: 520px; margin-left: auto; margin-right: auto; }
+    .cta-phone { font-family: var(--fh); font-size: clamp(1.7rem,4.5vw,3rem); font-weight: 800; color: var(--soil); display: block; margin-bottom: 1.8rem; }
+    .cta-phone a { color: var(--soil); }
+    .cta-row { display: flex; flex-wrap: wrap; gap: .85rem; justify-content: center; }
+
+    /* ─── FOOTER ─── */
+    footer { background: var(--soil); border-top: 4px solid var(--amber); padding: 3.5rem 1.5rem 1.5rem; }
+    .footer-grid { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1.7fr 1fr 1fr; gap: 2.8rem; padding-bottom: 2.2rem; border-bottom: 1px solid rgba(255,255,255,.07); }
+    .fb .fname { font-family: var(--fh); font-size: 1.2rem; font-weight: 800; text-transform: uppercase; color: #fff; margin-bottom: .2rem; }
+    .fb .fsub { font-size: .62rem; letter-spacing: .13em; text-transform: uppercase; color: var(--sand); opacity: .5; margin-bottom: .85rem; }
+    .fb .tagline-f { font-family: var(--fh); font-size: .95rem; font-style: italic; color: var(--amber-lt); margin-bottom: .8rem; }
+    .fb p { font-size: .83rem; line-height: 1.78; color: rgba(255,255,255,.4); }
+    .fb .cbits { margin-top: .95rem; display: flex; flex-direction: column; gap: .4rem; }
+    .fb .cbits a { font-size: .82rem; color: rgba(255,255,255,.45); transition: color .2s; }
+    .fb .cbits a:hover { color: var(--amber-lt); }
+    .fc h4 { font-family: var(--fh); font-size: .72rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; color: rgba(255,255,255,.3); margin-bottom: .85rem; }
+    .fc li { margin-bottom: .45rem; }
+    .fc li a { font-size: .83rem; color: rgba(255,255,255,.45); transition: color .2s; }
+    .fc li a:hover { color: var(--amber-lt); }
+    .foot-bot { max-width: 1200px; margin: 1.1rem auto 0; display: flex; flex-wrap: wrap; gap: .7rem; justify-content: space-between; align-items: center; }
+    .foot-bot p { font-size: .72rem; color: rgba(255,255,255,.18); }
+
+    /* ─── WA FLOAT ─── */
+    .wa-float { position: fixed; bottom: 1.5rem; right: 1.5rem; z-index: 300; background: var(--wa); width: 58px; height: 58px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 22px rgba(37,211,102,.55); animation: wag 6s ease-in-out 4s infinite; transition: transform .2s, box-shadow .2s; }
+    .wa-float:hover { transform: scale(1.12); box-shadow: 0 6px 28px rgba(37,211,102,.7); }
+    .wa-float svg { width: 27px; height: 27px; fill: #fff; }
+    @keyframes wag{0%,88%,100%{transform:rotate(0)}90%{transform:rotate(-14deg)}94%{transform:rotate(14deg)}97%{transform:rotate(-7deg)}}
+
+    /* ─── RESPONSIVE ─── */
+    @media(max-width:960px){
+      .nav-links { display: none; }
+      .ham { display: flex; }
+      .footer-grid { grid-template-columns: 1fr 1fr; }
+      .process-grid { grid-template-columns: repeat(2,1fr); }
+      .pricing-cards { grid-template-columns: 1fr; max-width: 440px; margin-left: auto; margin-right: auto; }
+      .mob-call-bar { display: flex; }
+      .cta-ban, footer { padding-bottom: calc(1.5rem + 70px); }
+      .wa-float { bottom: 5.5rem; }
+      .svc-block-inner { grid-template-columns: 1fr; gap: 2.5rem; }
+      .svc-block:nth-child(even) .svc-block-inner { direction: ltr; }
+      .svc-visual { min-height: 280px; }
+    }
+    @media(max-width:768px){
+      .footer-grid { grid-template-columns: 1fr; gap: 2rem; }
+      .sec { padding: 4rem 1.1rem; }
+      .svc-nav { top: 51px; }
+    }
+    @media(max-width:600px){
+      .page-hero { padding: 3.5rem 1.1rem 3rem; }
+      .page-hero h1 { font-size: clamp(2.4rem,8vw,3rem); }
+      .cta-row { flex-direction: column; align-items: stretch; }
+      .cta-row .btn { width: 100%; }
+      .svc-pill { font-size: .7rem; padding: .3rem .65rem; }
+      .process-grid { grid-template-columns: 1fr; }
+    }
+    html, body { overflow-x: hidden !important; max-width: 100vw !important; }
+  </style>
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="topbar">
+  <div class="topbar-left">
+    <span>📍 Veldrif / Laaiplek, West Coast</span>
+    <span>✉️ <a href="mailto:forgivenharingo30@gmail.com">forgivenharingo30@gmail.com</a></span>
+  </div>
+  <div class="topbar-left">
+    <span>📞 <a href="tel:+27659359012">+27 65 935 9012</a></span>
+    <span>📞 <a href="tel:+27817239371">+27 81 723 9371</a></span>
+    <span style="color:rgba(255,255,255,.35)">Mon–Sat 7am–6pm</span>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-wrap">
+    <a class="nav-brand" href="index.html">
+      <img src="logo.png" alt="Paving Master Construction Logo" class="nav-logo-img" onerror="this.style.display='none'"/>
+      <div class="nav-brand-text">
+        <div class="b1">Paving Master Construction</div>
+        <div class="b2">PTY LTD · Built to Last · Installed Right</div>
+      </div>
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="services.html" class="active">Services</a>
+      <a href="index.html#gallery">Gallery</a>
+      <a href="index.html#area">Service Area</a>
+      <a href="contact.html" class="nav-cta">Free Quote</a>
+    </div>
+    <div class="ham" id="ham" onclick="toggleMob()"><span></span><span></span><span></span></div>
+  </div>
+  <div class="mob-nav" id="mobNav">
+    <a href="index.html" onclick="closeMob()">Home</a>
+    <a href="services.html" onclick="closeMob()">Services</a>
+    <a href="index.html#gallery" onclick="closeMob()">Gallery</a>
+    <a href="index.html#area" onclick="closeMob()">Service Area</a>
+    <a href="contact.html" onclick="closeMob()">Contact / Free Quote</a>
+    <a href="tel:+27659359012" style="color:var(--amber-lt)">📞 +27 65 935 9012</a>
+    <a href="tel:+27817239371" style="color:var(--amber-lt)">📞 +27 81 723 9371</a>
+  </div>
+</nav>
+
+<!-- MOBILE CALL BAR -->
+<div class="mob-call-bar">
+  <a href="tel:+27659359012" class="call">📞 Call Now</a>
+  <a href="https://wa.me/27659359012?text=Hi%20Paving%20Master!%20I%20need%20a%20paving%20quote." target="_blank" class="wa">
+    <svg style="width:16px;height:16px;fill:#fff;flex-shrink:0" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.558 4.115 1.535 5.845L.058 23.454a.75.75 0 0 0 .922.944l5.788-1.517A11.955 11.955 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.75a9.736 9.736 0 0 1-4.951-1.35l-.355-.212-3.682.965.983-3.593-.232-.37A9.713 9.713 0 0 1 2.25 12c0-5.376 4.374-9.75 9.75-9.75s9.75 4.374 9.75 9.75-4.374 9.75-9.75 9.75z"/></svg>
+    WhatsApp Quote
+  </a>
+</div>
+
+<!-- PAGE HERO -->
+<div class="page-hero">
+  <div class="page-hero-inner">
+    <div class="breadcrumb reveal">
+      <a href="index.html">Home</a>
+      <span>›</span>
+      <span class="current">Services</span>
+    </div>
+    <h1 class="reveal d1">Our Paving<br><em>Services</em></h1>
+    <p class="reveal d2">Professional paving solutions for residential, commercial and industrial properties across the West Coast. Every job built strong, level, and made to last.</p>
+  </div>
+</div>
+
+<!-- STRIP -->
+<div class="hero-strip">
+  <div class="hero-strip-inner">
+    <div class="hero-strip-text">
+      <span>🏗️</span><span>9 Professional Services</span>
+      <span class="hero-strip-dot"></span>
+      <span>Free Quotes</span>
+      <span class="hero-strip-dot"></span>
+      <span>West Coast Specialists</span>
+    </div>
+    <a href="contact.html" class="btn btn-dark">📋 Get Free Quote</a>
+  </div>
+</div>
+
+<!-- SERVICE NAV PILLS -->
+<div class="svc-nav">
+  <div class="svc-nav-inner">
+    <span class="svc-pill" onclick="scrollTo('bond')">Bond Paving</span>
+    <span class="svc-pill" onclick="scrollTo('cobble')">Cobble Paving</span>
+    <span class="svc-pill" onclick="scrollTo('block')">Block Paving</span>
+    <span class="svc-pill" onclick="scrollTo('interlock')">Interlock Paving</span>
+    <span class="svc-pill" onclick="scrollTo('halfbrick')">Half Brick</span>
+    <span class="svc-pill" onclick="scrollTo('tiling')">Tiling</span>
+    <span class="svc-pill" onclick="scrollTo('vibracrete')">Vibracrete Wall</span>
+    <span class="svc-pill" onclick="scrollTo('painting')">Painting</span>
+    <span class="svc-pill" onclick="scrollTo('retaining')">Retaining Walls</span>
+  </div>
+</div>
+
+<!-- ═══ SERVICE BLOCKS ═══ -->
+
+<!-- 1. BOND PAVING -->
+<div class="svc-block" id="bond">
+  <div class="svc-block-inner">
+    <div class="reveal">
+      <div class="svc-number">01</div>
+      <div class="svc-icon-lg">🧱</div>
+      <h2>Bond <span>Paving</span></h2>
+      <div style="width:48px;height:4px;background:var(--amber);margin:.8rem 0 1.2rem;border-radius:2px"></div>
+      <p>Bond paving is the most popular paving style across the West Coast — and for good reason. The classic stretcher bond pattern creates strong, interlocking surfaces that distribute weight evenly and resist cracking over time.</p>
+      <p>Ideal for driveways, pathways, parking areas, and entrance courts. We prepare a properly compacted base before laying each brick to guarantee a level, long-lasting finish.</p>
+      <div class="svc-features">
+        <div class="svc-feat">Perfect for driveways, parking areas and pathways</div>
+        <div class="svc-feat">Available in multiple brick colours and finishes</div>
+        <div class="svc-feat">Solid compacted base preparation included</div>
+        <div class="svc-feat">Durable against heavy vehicle traffic</div>
+        <div class="svc-feat">Easy to repair individual bricks if needed</div>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:.75rem">
+        <a href="contact.html" class="btn btn-amber">📋 Get Quote</a>
+        <a href="https://wa.me/27659359012?text=Hi!%20I%20need%20a%20quote%20for%20Bond%20Paving%20please." target="_blank" class="btn btn-wa"><svg class="wa-ic" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.558 4.115 1.535 5.845L.058 23.454a.75.75 0 0 0 .922.944l5.788-1.517A11.955 11.955 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.75a9.736 9.736 0 0 1-4.951-1.35l-.355-.212-3.682.965.983-3.593-.232-.37A9.713 9.713 0 0 1 2.25 12c0-5.376 4.374-9.75 9.75-9.75s9.75 4.374 9.75 9.75-4.374 9.75-9.75 9.75z"/></svg>WhatsApp Us</a>
+      </div>
+    </div>
+    <div class="svc-visual reveal d2">
+      <img src="PAVE1.jpeg" alt="Bond Paving — Paving Master Construction" onerror="this.style.display='none'"/>
+      <div class="svc-visual-placeholder">
+        <div class="big-ico">🧱</div>
+        <span>Bond Paving</span>
+      </div>
+      <div class="svc-visual-label">Bond Paving — Veldrif / West Coast</div>
+    </div>
+  </div>
+</div>
+
+<!-- 2. COBBLE PAVING -->
+<div class="svc-block" id="cobble">
+  <div class="svc-block-inner">
+    <div class="reveal">
+      <div class="svc-number">02</div>
+      <div class="svc-icon-lg">⬡</div>
+      <h2>Cobble <span>Paving</span></h2>
+      <div style="width:48px;height:4px;background:var(--amber);margin:.8rem 0 1.2rem;border-radius:2px"></div>
+      <p>Cobblestone paving adds a distinctive, premium look to any property. The natural rounded shape of cobble bricks creates a charming, traditional aesthetic perfect for entrances, courtyards, and decorative border work.</p>
+      <p>Our team carefully lays each cobble to ensure a uniform, level surface that is both visually striking and structurally sound — built to handle daily foot and vehicle traffic.</p>
+      <div class="svc-features">
+        <div class="svc-feat">Premium look for driveways and entrance courts</div>
+        <div class="svc-feat">Excellent for curved and decorative layouts</div>
+        <div class="svc-feat">Slip-resistant natural texture</div>
+        <div class="svc-feat">Long-lasting with minimal maintenance</div>
+        <div class="svc-feat">Complements garden and landscape designs</div>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:.75rem">
+        <a href="contact.html" class="btn btn-amber">📋 Get Quote</a>
+        <a href="https://wa.me/27659359012?text=Hi!%20I%20need%20a%20quote%20for%20Cobble%20Paving%20please." target="_blank" class="btn btn-wa"><svg class="wa-ic" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.558 4.115 1.535 5.845L.058 23.454a.75.75 0 0 0 .922.944l5.788-1.517A11.955 11.955 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.75a9.736 9.736 0 0 1-4.951-1.35l-.355-.212-3.682.965.983-3.593-.232-.37A9.713 9.713 0 0 1 2.25 12c0-5.376 4.374-9.75 9.75-9.75s9.75 4.374 9.75 9.75-4.374 9.75-9.75 9.75z"/></svg>WhatsApp Us</a>
+      </div>
+    </div>
+    <div class="svc-visual reveal d2">
+      <img src="PAVE2.jpeg" alt="Cobble Paving — Paving Master Construction" onerror="this.style.display='none'"/>
+      <div class="svc-visual-placeholder"><div class="big-ico">⬡</div><span>Cobble Paving</span></div>
+      <div class="svc-visual-label">Cobble Paving — Laaiplek</div>
+    </div>
+  </div>
+</div>
+
+<!-- 3. BLOCK PAVING -->
+<div class="svc-block" id="block">
+  <div class="svc-block-inner">
+    <div class="reveal">
+      <div class="svc-number">03</div>
+      <div class="svc-icon-lg">⬛</div>
+      <h2>Block <span>Paving</span></h2>
+      <div style="width:48px;height:4px;background:var(--amber);margin:.8rem 0 1.2rem;border-radius:2px"></div>
+      <p>Block paving offers outstanding strength and flexibility. The individual concrete blocks interlock to create a surface that moves slightly under load — making it more resistant to cracking than poured concrete.</p>
+      <p>We use this method for residential driveways, business forecourts, industrial yards, and public spaces where a clean, professional finish is required alongside heavy-duty performance.</p>
+      <div class="svc-features">
+        <div class="svc-feat">Heavy-duty surface for vehicles and forklifts</div>
+        <div class="svc-feat">Flexible under load — resistant to cracking</div>
+        <div class="svc-feat">Clean, professional finish for businesses</div>
+        <div class="svc-feat">Multiple pattern and colour options available</div>
+        <div class="svc-feat">Easy individual block replacement if damaged</div>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:.75rem">
+        <a href="contact.html" class="btn btn-amber">📋 Get Quote</a>
+        <a href="https://wa.me/27659359012?text=Hi!%20I%20need%20a%20quote%20for%20Block%20Paving%20please." target="_blank" class="btn btn-wa"><svg class="wa-ic" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.558 4.115 1.535 5.845L.058 23.454a.75.75 0 0 0 .922.944l5.788-1.517A11.955 11.955 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.75a9.736 9.736 0 0 1-4.951-1.35l-.355-.212-3.682.965.983-3.593-.232-.37A9.713 9.713 0 0 1 2.25 12c0-5.376 4.374-9.75 9.75-9.75s9.75 4.374 9.75 9.75-4.374 9.75-9.75 9.75z"/></svg>WhatsApp Us</a>
+      </div>
+    </div>
+    <div class="svc-visual reveal d2">
+      <img src="PAVE3.jpeg" alt="Block Paving — Paving Master Construction" onerror="this.style.display='none'"/>
+      <div class="svc-visual-placeholder"><div class="big-ico">⬛</div><span>Block Paving</span></div>
+      <div class="svc-visual-label">Block Paving — West Coast</div>
+    </div>
+  </div>
+</div>
+
+<!-- 4. INTERLOCK -->
+<div class="svc-block" id="interlock">
+  <div class="svc-block-inner">
+    <div class="reveal">
+      <div class="svc-number">04</div>
+      <div class="svc-icon-lg">🔲</div>
+      <h2>Interlock <span>Paving</span></h2>
+      <div style="width:48px;height:4px;background:var(--amber);margin:.8rem 0 1.2rem;border-radius:2px"></div>
+      <p>Interlock paving uses specially shaped blocks that lock together without mortar — creating a surface that is incredibly strong yet flexible. Used extensively in industrial sites, loading zones, and high-traffic commercial areas.</p>
+      <p>The precision-engineered interlocking system means weight is distributed across multiple blocks simultaneously, making this the top choice for heavy-duty applications.</p>
+      <div class="svc-features">
+        <div class="svc-feat">Engineered for heavy-duty industrial use</div>
+        <div class="svc-feat">No mortar required — locks under compression</div>
+        <div class="svc-feat">Handles heavy truck and forklift loads</div>
+        <div class="svc-feat">Excellent drainage through the joints</div>
+        <div class="svc-feat">Long service life with minimal maintenance</div>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:.75rem">
+        <a href="contact.html" class="btn btn-amber">📋 Get Quote</a>
+        <a href="https://wa.me/27659359012?text=Hi!%20I%20need%20a%20quote%20for%20Interlock%20Paving%20please." target="_blank" class="btn btn-wa"><svg class="wa-ic" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.558 4.115 1.535 5.845L.058 23.454a.75.75 0 0 0 .922.944l5.788-1.517A11.955 11.955 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.75a9.736 9.736 0 0 1-4.951-1.35l-.355-.212-3.682.965.983-3.593-.232-.37A9.713 9.713 0 0 1 2.25 12c0-5.376 4.374-9.75 9.75-9.75s9.75 4.374 9.75 9.75-4.374 9.75-9.75 9.75z"/></svg>WhatsApp Us</a>
+      </div>
+    </div>
+    <div class="svc-visual reveal d2">
+      <img src="PAVE4.jpeg" alt="Interlock Paving — Paving Master Construction" onerror="this.style.display='none'"/>
+      <div class="svc-visual-placeholder"><div class="big-ico">🔲</div><span>Interlock Paving</span></div>
+      <div class="svc-visual-label">Interlock Paving — Veldrif</div>
+    </div>
+  </div>
+</div>
+
+<!-- 5. HALF BRICK -->
+<div class="svc-block" id="halfbrick">
+  <div class="svc-block-inner">
+    <div class="reveal">
+      <div class="svc-number">05</div>
+      <div class="svc-icon-lg">🏠</div>
+      <h2>Half Brick <span>Paving</span></h2>
+      <div style="width:48px;height:4px;background:var(--amber);margin:.8rem 0 1.2rem;border-radius:2px"></div>
+      <p>Half brick paving is a cost-effective solution that delivers excellent results for residential and light commercial surfaces. The smaller brick format allows for creative patterns and is particularly suited to garden paths, patios, and low-traffic areas.</p>
+      <p>We cut and lay each half brick with precision to create clean, uniform surfaces that are attractive, durable, and budget-friendly for homeowners across the West Coast.</p>
+      <div class="svc-features">
+        <div class="svc-feat">Budget-friendly without compromising quality</div>
+        <div class="svc-feat">Great for garden paths and patios</div>
+        <div class="svc-feat">Allows creative pattern layouts</div>
+        <div class="svc-feat">Neatly cut and precisely laid</div>
+        <div class="svc-feat">Suitable for residential and light commercial use</div>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:.75rem">
+        <a href="contact.html" class="btn btn-amber">📋 Get Quote</a>
+        <a href="https://wa.me/27659359012?text=Hi!%20I%20need%20a%20quote%20for%20Half%20Brick%20Paving%20please." target="_blank" class="btn btn-wa"><svg class="wa-ic" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.558 4.115 1.535 5.845L.058 23.454a.75.75 0 0 0 .922.944l5.788-1.517A11.955 11.955 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.75a9.736 9.736 0 0 1-4.951-1.35l-.355-.212-3.682.965.983-3.593-.232-.37A9.713 9.713 0 0 1 2.25 12c0-5.376 4.374-9.75 9.75-9.75s9.75 4.374 9.75 9.75-4.374 9.75-9.75 9.75z"/></svg>WhatsApp Us</a>
+      </div>
+    </div>
+    <div class="svc-visual reveal d2">
+      <img src="PAVE7.jpeg" alt="Half Brick Paving — Paving Master Construction" onerror="this.style.display='none'"/>
+      <div class="svc-visual-placeholder"><div class="big-ico">🏠</div><span>Half Brick Paving</span></div>
+      <div class="svc-visual-label">Half Brick Paving</div>
+    </div>
+  </div>
+</div>
+
+<!-- 6. TILING -->
+<div class="svc-block" id="tiling">
+  <div class="svc-block-inner">
+    <div class="reveal">
+      <div class="svc-number">06</div>
+      <div class="svc-icon-lg">🪟</div>
+      <h2>Professional <span>Tiling</span></h2>
+      <div style="width:48px;height:4px;background:var(--amber);margin:.8rem 0 1.2rem;border-radius:2px"></div>
+      <p>Our tiling service delivers flawless results for indoor and outdoor spaces. From entrance halls and kitchens to patios, stoeps and pool surrounds — we tile with precision, ensuring perfectly level, grout-consistent surfaces every time.</p>
+      <p>We work with various tile types and sizes, advising on the best choice for your space, traffic levels, and budget. Clean lines, even spacing, and no hollow spots — guaranteed.</p>
+      <div class="svc-features">
+        <div class="svc-feat">Indoor and outdoor tiling services</div>
+        <div class="svc-feat">Stoeps, patios, pool surrounds and entrance halls</div>
+        <div class="svc-feat">Kitchens, bathrooms and living areas</div>
+        <div class="svc-feat">All tile types and sizes accommodated</div>
+        <div class="svc-feat">Perfectly level with consistent grout lines</div>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:.75rem">
+        <a href="contact.html" class="btn btn-amber">📋 Get Quote</a>
+        <a href="https://wa.me/27659359012?text=Hi!%20I%20need%20a%20quote%20for%20Tiling%20please." target="_blank" class="btn btn-wa"><svg class="wa-ic" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.558 4.115 1.535 5.845L.058 23.454a.75.75 0 0 0 .922.944l5.788-1.517A11.955 11.955 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.75a9.736 9.736 0 0 1-4.951-1.35l-.355-.212-3.682.965.983-3.593-.232-.37A9.713 9.713 0 0 1 2.25 12c0-5.376 4.374-9.75 9.75-9.75s9.75 4.374 9.75 9.75-4.374 9.75-9.75 9.75z"/></svg>WhatsApp Us</a>
+      </div>
+    </div>
+    <div class="svc-visual reveal d2">
+      <img src="PAVE9.jpeg" alt="Tiling — Paving Master Construction" onerror="this.style.display='none'"/>
+      <div class="svc-visual-placeholder"><div class="big-ico">🪟</div><span>Tiling</span></div>
+      <div class="svc-visual-label">Professional Tiling — West Coast</div>
+    </div>
+  </div>
+</div>
+
+<!-- 7. VIBRACRETE -->
+<div class="svc-block" id="vibracrete">
+  <div class="svc-block-inner">
+    <div class="reveal">
+      <div class="svc-number">07</div>
+      <div class="svc-icon-lg">🧱</div>
+      <h2>Vibracrete <span>Walls</span></h2>
+      <div style="width:48px;height:4px;background:var(--amber);margin:.8rem 0 1.2rem;border-radius:2px"></div>
+      <p>Vibracrete (precast concrete panel) walls are the most popular boundary wall solution on the West Coast — fast to install, cost-effective, and extremely durable against the harsh coastal climate and wind.</p>
+      <p>We install vibracrete walls for residential properties, farms, business premises, and schools. Posts are anchored correctly, panels are levelled precisely, and the finish is neat and professional.</p>
+      <div class="svc-features">
+        <div class="svc-feat">Fast installation compared to brick walls</div>
+        <div class="svc-feat">Cost-effective boundary wall solution</div>
+        <div class="svc-feat">Wind and weather-resistant precast panels</div>
+        <div class="svc-feat">Residential, farm, and commercial use</div>
+        <div class="svc-feat">Posts correctly anchored and levelled</div>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:.75rem">
+        <a href="contact.html" class="btn btn-amber">📋 Get Quote</a>
+        <a href="https://wa.me/27659359012?text=Hi!%20I%20need%20a%20quote%20for%20a%20Vibracrete%20Wall%20please." target="_blank" class="btn btn-wa"><svg class="wa-ic" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.558 4.115 1.535 5.845L.058 23.454a.75.75 0 0 0 .922.944l5.788-1.517A11.955 11.955 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.75a9.736 9.736 0 0 1-4.951-1.35l-.355-.212-3.682.965.983-3.593-.232-.37A9.713 9.713 0 0 1 2.25 12c0-5.376 4.374-9.75 9.75-9.75s9.75 4.374 9.75 9.75-4.374 9.75-9.75 9.75z"/></svg>WhatsApp Us</a>
+      </div>
+    </div>
+    <div class="svc-visual reveal d2">
+      <img src="PAVE5.jpeg" alt="Vibracrete Wall — Paving Master Construction" onerror="this.style.display='none'"/>
+      <div class="svc-visual-placeholder"><div class="big-ico">🧱</div><span>Vibracrete Wall</span></div>
+      <div class="svc-visual-label">Vibracrete Boundary Wall</div>
+    </div>
+  </div>
+</div>
+
+<!-- 8. PAINTING -->
+<div class="svc-block" id="painting">
+  <div class="svc-block-inner">
+    <div class="reveal">
+      <div class="svc-number">08</div>
+      <div class="svc-icon-lg">🎨</div>
+      <h2>Interior &amp; Exterior <span>Painting</span></h2>
+      <div style="width:48px;height:4px;background:var(--amber);margin:.8rem 0 1.2rem;border-radius:2px"></div>
+      <p>A fresh coat of paint transforms any property. Our painting service covers residential and commercial properties across the West Coast — delivering clean, even, professional finishes that protect and beautify your building.</p>
+      <p>We prepare surfaces properly, fill cracks, and apply quality paint products that stand up to the West Coast coastal climate. Interior and exterior painting, walls, ceilings, and boundary walls.</p>
+      <div class="svc-features">
+        <div class="svc-feat">Interior and exterior residential painting</div>
+        <div class="svc-feat">Commercial property and office painting</div>
+        <div class="svc-feat">Proper surface preparation and crack filling</div>
+        <div class="svc-feat">Quality paint products for coastal conditions</div>
+        <div class="svc-feat">Walls, ceilings and boundary wall painting</div>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:.75rem">
+        <a href="contact.html" class="btn btn-amber">📋 Get Quote</a>
+        <a href="https://wa.me/27659359012?text=Hi!%20I%20need%20a%20quote%20for%20Painting%20please." target="_blank" class="btn btn-wa"><svg class="wa-ic" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.558 4.115 1.535 5.845L.058 23.454a.75.75 0 0 0 .922.944l5.788-1.517A11.955 11.955 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.75a9.736 9.736 0 0 1-4.951-1.35l-.355-.212-3.682.965.983-3.593-.232-.37A9.713 9.713 0 0 1 2.25 12c0-5.376 4.374-9.75 9.75-9.75s9.75 4.374 9.75 9.75-4.374 9.75-9.75 9.75z"/></svg>WhatsApp Us</a>
+      </div>
+    </div>
+    <div class="svc-visual reveal d2">
+      <img src="PAVE10.jpeg" alt="Painting — Paving Master Construction" onerror="this.style.display='none'"/>
+      <div class="svc-visual-placeholder"><div class="big-ico">🎨</div><span>Painting</span></div>
+      <div class="svc-visual-label">Painting &amp; Finishing</div>
+    </div>
+  </div>
+</div>
+
+<!-- 9. RETAINING WALLS -->
+<div class="svc-block" id="retaining">
+  <div class="svc-block-inner">
+    <div class="reveal">
+      <div class="svc-number">09</div>
+      <div class="svc-icon-lg">🏔️</div>
+      <h2>Retaining Wall <span>Blocks</span></h2>
+      <div style="width:48px;height:4px;background:var(--amber);margin:.8rem 0 1.2rem;border-radius:2px"></div>
+      <p>Retaining walls are essential for sloped properties — preventing soil erosion, managing water runoff, and turning unusable sloped ground into practical terraced areas. We design and construct retaining wall block systems that are structurally sound and visually attractive.</p>
+      <p>Our team assesses each site carefully, ensuring proper drainage and footing depth before construction begins. Built to handle soil pressure and seasonal movement.</p>
+      <div class="svc-features">
+        <div class="svc-feat">Controls erosion and manages soil on slopes</div>
+        <div class="svc-feat">Creates usable terraced garden areas</div>
+        <div class="svc-feat">Proper drainage and footing design</div>
+        <div class="svc-feat">Structurally engineered for soil pressure</div>
+        <div class="svc-feat">Attractive stacked block finish</div>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:.75rem">
+        <a href="contact.html" class="btn btn-amber">📋 Get Quote</a>
+        <a href="https://wa.me/27659359012?text=Hi!%20I%20need%20a%20quote%20for%20Retaining%20Wall%20Blocks%20please." target="_blank" class="btn btn-wa"><svg class="wa-ic" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008--result:.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.558 4.115 1.535 5.845L.058 23.454a.75.75 0 0 0 .922.944l5.788-1.517A11.955 11.955 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.75a9.736 9.736 0 0 1-4.951-1.35l-.355-.212-3.682.965.983-3.593-.232-.37A9.713 9.713 0 0 1 2.25 12c0-5.376 4.374-9.75 9.75-9.75s9.75 4.374 9.75 9.75-4.374 9.75-9.75 9.75z"/></svg>WhatsApp Us</a>
+      </div>
+    </div>
+    <div class="svc-visual reveal d2">
+      <img src="PAVE8.jpeg" alt="Retaining Wall Blocks — Paving Master Construction" onerror="this.style.display='none'"/>
+      <div class="svc-visual-placeholder"><div class="big-ico">🏔️</div><span>Retaining Wall Blocks</span></div>
+      <div class="svc-visual-label">Retaining Wall Blocks</div>
+    </div>
+  </div>
+</div>
+
+<!-- HOW WE WORK -->
+<section class="sec process-sec">
+  <div class="wrap">
+    <div style="text-align:center;margin-bottom:3rem" class="reveal">
+      <div class="sec-tag" style="background:rgba(255,255,255,.07);border-color:rgba(255,255,255,.18);color:var(--amber-lt)">⚙️ Our Process</div>
+      <h2 class="sec-title light">How We <span>Work</span></h2>
+      <div class="bar c"></div>
+      <p class="sec-sub light" style="max-width:560px;margin:0 auto">From your first call to the final sweep — here's what to expect when you work with Paving Master Construction.</p>
+    </div>
+    <div class="process-grid">
+      <div class="process-step reveal d1">
+        <div class="process-num">01</div>
+        <div class="process-ico">📞</div>
+        <h3>Contact Us</h3>
+        <p>Call, WhatsApp or fill in our quote form. We'll respond quickly to discuss your project and arrange a site visit.</p>
+      </div>
+      <div class="process-step reveal d2">
+        <div class="process-num">02</div>
+        <div class="process-ico">📋</div>
+        <h3>Free Quote</h3>
+        <p>We assess your site, measure the area, and provide a detailed, no-obligation quote with clear pricing — no hidden costs.</p>
+      </div>
+      <div class="process-step reveal d3">
+        <div class="process-num">03</div>
+        <div class="process-ico">🏗️</div>
+        <h3>We Build</h3>
+        <p>Our team arrives on time, prepares the foundation properly, and lays every brick or tile with care and precision.</p>
+      </div>
+      <div class="process-step reveal d4">
+        <div class="process-num">04</div>
+        <div class="process-ico">✅</div>
+        <h3>Handover</h3>
+        <p>We clean up, do a final inspection with you, and hand over a strong, level, long-lasting surface you'll be proud of.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BANNER -->
+<div class="cta-ban">
+  <div class="cta-ban-inner">
+    <h2>Ready to Get Started?</h2>
+    <p>Call or WhatsApp Forgive Nharingo at Paving Master Construction for your free, no-obligation quote today.</p>
+    <span class="cta-phone">
+      <a href="tel:+27659359012">+27 65 935 9012</a> &nbsp;/&nbsp; <a href="tel:+27817239371">+27 81 723 9371</a>
+    </span>
+    <div class="cta-row">
+      <a href="tel:+27659359012" class="btn btn-dark btn-xl">📞 Call Now</a>
+      <a href="https://wa.me/27659359012?text=Hi!%20I%20would%20like%20a%20free%20paving%20quote%20please." target="_blank" class="btn btn-wa btn-xl">
+        <svg class="wa-ic" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.558 4.115 1.535 5.845L.058 23.454a.75.75 0 0 0 .922.944l5.788-1.517A11.955 11.955 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.75a9.736 9.736 0 0 1-4.951-1.35l-.355-.212-3.682.965.983-3.593-.232-.37A9.713 9.713 0 0 1 2.25 12c0-5.376 4.374-9.75 9.75-9.75s9.75 4.374 9.75 9.75-4.374 9.75-9.75 9.75z"/></svg>
+        WhatsApp for Quote
+      </a>
+      <a href="contact.html" class="btn btn-outline-w btn-xl">📋 Fill In Quote Form</a>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div class="fb">
+      <div class="fname">Paving Master Construction (PTY) LTD</div>
+      <div class="fsub">West Coast Paving Specialists — Forgive Nharingo</div>
+      <div class="tagline-f">Built to Last. Installed Right.</div>
+      <p>Bond, Cobble, Block &amp; Interlock Paving, Tiling, Vibracrete Walls, Retaining Wall Blocks and Painting across the West Coast.</p>
+      <div class="cbits">
+        <a href="tel:+27659359012">📞 +27 65 935 9012</a>
+        <a href="tel:+27817239371">📞 +27 81 723 9371</a>
+        <a href="https://wa.me/27659359012" target="_blank">📱 WhatsApp: +27 65 935 9012</a>
+        <a href="mailto:forgivenharingo30@gmail.com">✉️ forgivenharingo30@gmail.com</a>
+        <a href="#">📍 Veldrif / Laaiplek, West Coast, Western Cape</a>
+      </div>
+    </div>
+    <div class="fc">
+      <h4>Our Services</h4>
+      <ul>
+        <li><a href="#bond">Bond Paving</a></li>
+        <li><a href="#cobble">Cobble Paving</a></li>
+        <li><a href="#block">Block Paving</a></li>
+        <li><a href="#interlock">Interlock Paving</a></li>
+        <li><a href="#halfbrick">Half Brick Paving</a></li>
+        <li><a href="#tiling">Tiling</a></li>
+        <li><a href="#vibracrete">Vibracrete Wall</a></li>
+        <li><a href="#painting">Painting</a></li>
+        <li><a href="#retaining">Retaining Wall Blocks</a></li>
+      </ul>
+    </div>
+    <div class="fc">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="index.html#gallery">Gallery</a></li>
+        <li><a href="index.html#area">Service Area</a></li>
+        <li><a href="contact.html">Contact / Free Quote</a></li>
+      </ul>
+      <div style="margin-top:1.5rem;display:flex;flex-direction:column;gap:.5rem">
+        <a href="tel:+27659359012" class="btn btn-amber" style="width:100%;justify-content:center;font-size:.88rem">📞 065 935 9012</a>
+        <a href="tel:+27817239371" class="btn btn-amber" style="width:100%;justify-content:center;font-size:.88rem">📞 081 723 9371</a>
+      </div>
+    </div>
+  </div>
+  <div class="foot-bot">
+    <p>© 2025 Paving Master Construction (PTY) LTD — Forgive Nharingo. Veldrif / Laaiplek, West Coast, Western Cape. All rights reserved.</p>
+    <p>Bond Paving · Cobble Paving · Block Paving · Interlock · Tiling · Vibracrete Wall · West Coast</p>
+  </div>
+</footer>
+
+<!-- WA FLOAT -->
+<a class="wa-float" href="https://wa.me/27659359012?text=Hi%20Paving%20Master!%20I%20need%20a%20paving%20quote%20please." target="_blank" aria-label="WhatsApp Paving Master Construction">
+  <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.558 4.115 1.535 5.845L.058 23.454a.75.75 0 0 0 .922.944l5.788-1.517A11.955 11.955 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.75a9.736 9.736 0 0 1-4.951-1.35l-.355-.212-3.682.965.983-3.593-.232-.37A9.713 9.713 0 0 1 2.25 12c0-5.376 4.374-9.75 9.75-9.75s9.75 4.374 9.75 9.75-4.374 9.75-9.75 9.75z"/></svg>
+</a>
+
+<script>
+  function toggleMob(){ document.getElementById('ham').classList.toggle('open'); document.getElementById('mobNav').classList.toggle('open'); }
+  function closeMob(){ document.getElementById('ham').classList.remove('open'); document.getElementById('mobNav').classList.remove('open'); }
+  function scrollTo(id){ document.getElementById(id).scrollIntoView({behavior:'smooth', block:'start'}); }
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach(e => { if(e.isIntersecting){ e.target.classList.add('in'); obs.unobserve(e.target); } });
+  }, { threshold: 0.08 });
+  document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+</script>
+</body>
+</html>
